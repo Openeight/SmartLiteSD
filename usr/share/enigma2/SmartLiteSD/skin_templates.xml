@@ -1,0 +1,233 @@
+<skin>
+	<!--  Original Skin: SmartLiteSD by SkinMania  -->
+	<!--  SmartLiteSD TEMPLATES FILE -->
+	
+    <!-- BACKG /> -->
+    <!-- <panel name="Backg" /> -->
+	<screen name="Backg">
+      <eLabel backgroundColor="EL_Background" position="173,33" size="933,653" zPosition="-21" />
+      <eLabel backgroundColor="Red" position="173,86" size="933,2" zPosition="-9" foregroundColor="white" />
+	</screen>
+
+
+    <!-- CLOCK /> -->
+    <!-- <panel name="Clock" /> -->
+	<screen name="Clock">
+      <eLabel backgroundColor="white" position="998,42" size="1,33" transparent="0" zPosition="-1" />
+      <widget backgroundColor="EL_Background" font="Bold; 33" halign="left" position="1002,31" render="Label" size="94,53" source="global.CurrentTime" transparent="1" valign="center">
+        <convert type="ClockToText">Format:%H:%M</convert>
+      </widget>
+      <widget backgroundColor="EL_Background" font="Bold; 15" foregroundColor="white" halign="right" position="896,57" render="Label" size="96,20" source="global.CurrentTime" transparent="1">
+        <convert type="ClockToText">Format:%e. %b</convert>
+      </widget>
+      <widget backgroundColor="EL_Background" font="Bold; 15" foregroundColor="white" halign="right" position="896,38" render="Label" size="96,20" source="global.CurrentTime" transparent="1">
+        <convert type="ClockToText">Format:%A</convert>
+      </widget>
+	</screen>
+
+    <!-- CLOCK 2 /> -->
+    <!-- <panel name="Clock2" /> -->
+	<screen name="Clock2">
+      <eLabel backgroundColor="EL_Background" position="1124,48" size="100,45" transparent="0" zPosition="-12" />
+      <eLabel backgroundColor="blue" position="1020,48" size="104,45" transparent="0" zPosition="-12" foregroundColor="white" />
+      <widget backgroundColor="EL_Background" font="Bold; 33" halign="left" position="1129,43" render="Label" size="94,53" source="global.CurrentTime" transparent="1" valign="center">
+        <convert type="ClockToText">Format:%H:%M</convert>
+      </widget>
+      <widget backgroundColor="EL_Background" font="Bold; 15" foregroundColor="white" halign="right" position="1022,70" render="Label" size="96,20" source="global.CurrentTime" transparent="1">
+        <convert type="ClockToText">Format:%e. %b</convert>
+      </widget>
+      <widget backgroundColor="EL_Background" font="Bold; 15" foregroundColor="white" halign="right" position="1022,52" render="Label" size="96,20" source="global.CurrentTime" transparent="1">
+        <convert type="ClockToText">Format:%A</convert>
+      </widget>
+	</screen>
+
+
+
+    <!-- BUTTONS KEY /> -->
+    <!-- BUTTONS KEY /> -->
+    <!-- BUTTONS KEY /> -->
+    <!-- BUTTONS KEY /> -->
+
+
+
+    <!-- <panel name="BN1" /> -->
+	<screen name="BN1">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <widget name="key_red" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+    <!-- <panel name="BN2" /> -->
+	<screen name="BN2">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="420,656" size="26,26" />
+      <widget name="key_red" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_green" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="450,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+    <!-- <panel name="BN3" /> -->
+	<screen name="BN3">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="420,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/yellow.png" position="633,656" size="26,26" />
+      <widget name="key_red" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_green" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="450,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_yellow" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="663,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+    <!-- <panel name="BN4" /> -->
+	<screen name="BN4">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="420,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/yellow.png" position="633,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/blue.png" position="846,656" size="26,26" />
+      <widget name="key_red" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_green" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="450,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_yellow" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="663,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_blue" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="876,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+
+
+
+    <!-- <panel name="BK1" /> -->
+	<screen name="BK1">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <widget name="key_red" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+    <!-- <panel name="BK2" /> -->
+	<screen name="BK2">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="420,656" size="26,26" />
+      <widget name="key_red" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_green" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="450,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+    <!-- <panel name="BK3" /> -->
+	<screen name="BK3">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="420,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/yellow.png" position="633,656" size="26,26" />
+      <widget name="key_red" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_green" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="450,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_yellow" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="663,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+    <!-- <panel name="BK4" /> -->
+	<screen name="BK4">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="420,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/yellow.png" position="633,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/blue.png" position="846,656" size="26,26" />
+      <widget name="key_red" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_green" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="450,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_yellow" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="663,656" size="180,26" transparent="1" zPosition="1" />
+      <widget name="key_blue" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="876,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+
+    <!-- BUTTONS SOURCE /> -->
+    <!-- BUTTONS SOURCE /> -->
+    <!-- BUTTONS SOURCE /> -->
+    <!-- BUTTONS SOURCE /> -->
+
+
+    <!-- <panel name="BS1" /> -->
+	<screen name="BS1">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <widget source="key_red" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+    <!-- <panel name="BS2" /> -->
+	<screen name="BS2">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="420,656" size="26,26" />
+      <widget source="key_red" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+      <widget source="key_green" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="450,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+    <!-- <panel name="BS3" /> -->
+	<screen name="BS3">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="420,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/yellow.png" position="633,656" size="26,26" />
+      <widget source="key_red" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+      <widget source="key_green" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="450,656" size="180,26" transparent="1" zPosition="1" />
+      <widget source="key_yellow" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="663,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+    <!-- <panel name="BS4" /> -->
+	<screen name="BS4">
+      <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="420,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/yellow.png" position="633,656" size="26,26" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/blue.png" position="846,656" size="26,26" />
+      <widget source="key_red" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+      <widget source="key_green" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="450,656" size="180,26" transparent="1" zPosition="1" />
+      <widget source="key_yellow" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="663,656" size="180,26" transparent="1" zPosition="1" />
+      <widget source="key_blue" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="876,656" size="180,26" transparent="1" zPosition="1" />
+	</screen>
+
+
+
+    <!-- WIZARD /> -->
+    <!-- WIZARD /> -->
+    <!-- WIZARD /> -->
+    <!-- WIZARD /> -->
+
+
+    <!-- <panel name="Wizard" /> -->
+	<screen name="Wizard">
+      <!-- Backg -->
+      <eLabel backgroundColor="EL_Background" position="center,center" size="1146,600" zPosition="-20" />
+      <eLabel backgroundColor="Red" position="66,110" size="1146,2" zPosition="-9" foregroundColor="white" />
+      <!-- Widget -->
+      <widget source="Title" render="Label" position="86,66" size="926,38" font="FHD; 28" backgroundColor="EL_Background" transparent="1" halign="left" />
+      <widget name="text" font="Regular2; 20" halign="left" valign="top" backgroundColor="EL_Background" position="86,126" size="926,175" transparent="1" />
+      <eLabel backgroundColor="blue" position="86,310" size="926,2" zPosition="-9" foregroundColor="white" />
+      <widget source="list" render="Listbox" backgroundColor="EL_Background" foregroundColor="EL_Foreground" position="86,325" scrollbarMode="showOnDemand" size="926,280" transparent="1" zPosition="9">
+        <convert type="TemplatedMultiContent">
+                {"template":[ MultiContentEntryText(pos=(13,1),size=(926,30),flags=RT_HALIGN_LEFT,text=0) ],
+                "fonts":[gFont("Bold",22) ],"itemHeight":35}
+        </convert>
+      </widget>
+      <widget name="config" position="86,325" size="926,280" font="Bold; 22" itemHeight="35" foregroundColor="EL_Foreground" backgroundColor="EL_Background" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="10" />
+      <widget name="HelpWindow" position="83,400" size="1,1" zPosition="10" />
+      <widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="1060,116" size="130,505" alphatest="blend" transparent="1" zPosition="1" />
+      <widget name="arrowdown" pixmap="skin_default/arrowdown.png" position="-66,-44" size="24,46" alphatest="blend" zPosition="11" />
+      <widget name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-66,-44" size="24,46" alphatest="blend" zPosition="11" />
+      <widget name="arrowup" pixmap="skin_default/arrowup.png" position="-66,-44" size="24,46" alphatest="blend" zPosition="11" />
+      <widget name="arrowup2" pixmap="skin_default/arrowup.png" position="-66,-44" size="24,46" alphatest="blend" zPosition="11" />
+      <!-- Buttons -->
+      <eLabel backgroundColor="blue" foregroundColor="white" name="" position="center,623" size="1146,1" zPosition="-10" />
+      <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="86,628" size="26,26" />
+      <widget name="languagetext" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" halign="left" position="116,628" size="233,26" transparent="1" zPosition="1" />
+      <!-- Clock -->
+      <eLabel backgroundColor="white" position="1114,68" size="1,33" transparent="0" zPosition="-1" />
+      <widget backgroundColor="EL_Background" font="Bold; 33" halign="left" position="1119,57" render="Label" size="94,53" source="global.CurrentTime" transparent="1" valign="center">
+        <convert type="ClockToText">Format:%H:%M</convert>
+      </widget>
+      <widget backgroundColor="EL_Background" font="Bold; 15" foregroundColor="EL_Blue" halign="right" position="1012,84" render="Label" size="96,20" source="global.CurrentTime" transparent="1">
+        <convert type="ClockToText">Format:%e. %b</convert>
+      </widget>
+      <widget backgroundColor="EL_Background" font="Bold; 15" foregroundColor="EL_Blue" halign="right" position="1012,65" render="Label" size="96,20" source="global.CurrentTime" transparent="1">
+        <convert type="ClockToText">Format:%A</convert>
+      </widget>
+	</screen>
+
+
+
+	
+</skin>

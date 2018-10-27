@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <skin>
-  <!-- SmartLiteSD Skin V1.00 by SkinMania for Octagon -->
+  <!-- SmartLiteSD Skin V1.55 by SkinMania for Octagon -->
   <!-- Recommended to use with XPicons (220x132) -->
   <!-- You are not allowed to modify and redistribute SmartLiteSD Skin and all graphics -->
   <output id="0">
@@ -3780,10 +3780,19 @@ self.instance.move(ePoint(int(deskwidth - newwidth)/2,int(deskheight - newheight
   <screen backgroundColor="transparent" flags="wfNoBorder" name="ServiceInfo" position="center,center" size="1280,720" title="Serviceinfo">
     <panel name="Backg" />
     <panel name="Clock" />
-    <panel name="BN4" />
     <!-- Widget -->
     <widget source="Title" render="Label" font="FHD; 28" backgroundColor="EL_Background" foregroundColor="white" position="206,40" size="666,38" transparent="1" />
     <widget name="infolist" itemHeight="33" font="FHD; 20" scrollbarMode="showOnDemand" selectionDisabled="1" backgroundColor="EL_Background" foregroundColor="white" position="206,110" size="866,533" transparent="1" />
+    <!-- Buttons -->
+    <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="173,652" size="933,1" zPosition="-10" />
+    <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="206,656" size="26,26" />
+    <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="420,656" size="26,26" />
+    <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/yellow.png" position="633,656" size="26,26" />
+    <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/blue.png" position="846,656" size="26,26" />
+    <widget name="red" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="236,656" size="180,26" transparent="1" zPosition="1" />
+    <widget name="green" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="450,656" size="180,26" transparent="1" zPosition="1" />
+    <widget name="yellow" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="663,656" size="180,26" transparent="1" zPosition="1" />
+    <widget name="blue" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" valign="center" halign="left" position="876,656" size="180,26" transparent="1" zPosition="1" />
   </screen>
   <screen backgroundColor="transparent" flags="wfNoBorder" name="ServiceInfoSimple" title="Service info" position="0,center" size="1280,720" transparent="0">
     <panel name="Backg" />
@@ -4624,48 +4633,6 @@ self.instance.move(ePoint(int(deskwidth - newwidth)/2,int(deskheight - newheight
     <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="center,652" size="933,1" zPosition="-10" />
     <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/key_exit.png" position="1055,657" size="42,25" />
   </screen>
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- PLUGIN SCREENS -->
-  <!-- EPGImport -->
   <!-- EPGImport -->
   <screen name="EPGImportConfig" title="EPG Import Configuration" backgroundColor="transparent" flags="wfNoBorder" position="0,0" size="1280,720">
     <panel name="Backg" />

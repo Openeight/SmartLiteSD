@@ -206,10 +206,10 @@
       <widget name="config" position="86,325" size="926,280" font="Bold; 22" itemHeight="35" foregroundColor="EL_Foreground" backgroundColor="EL_Background" transparent="1" enableWrapAround="1" scrollbarMode="showOnDemand" zPosition="10" />
       <widget name="HelpWindow" position="83,400" size="1,1" zPosition="10" />
       <widget name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="1060,116" size="130,505" alphatest="blend" transparent="1" zPosition="1" />
-      <widget name="arrowdown" pixmap="skin_default/arrowdown.png" position="-66,-44" size="24,46" alphatest="blend" zPosition="11" />
-      <widget name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-66,-44" size="24,46" alphatest="blend" zPosition="11" />
-      <widget name="arrowup" pixmap="skin_default/arrowup.png" position="-66,-44" size="24,46" alphatest="blend" zPosition="11" />
-      <widget name="arrowup2" pixmap="skin_default/arrowup.png" position="-66,-44" size="24,46" alphatest="blend" zPosition="11" />
+      <widget name="arrowdown" pixmap="skin_default/arrowdown.png" position="-66,-44" size="37,70" alphatest="blend" zPosition="11" />
+      <widget name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-66,-44" size="37,70" alphatest="blend" zPosition="11" />
+      <widget name="arrowup" pixmap="skin_default/arrowup.png" position="-66,-44" size="37,70" alphatest="blend" zPosition="11" />
+      <widget name="arrowup2" pixmap="skin_default/arrowup.png" position="-66,-44" size="37,70" alphatest="blend" zPosition="11" />
       <!-- Buttons -->
       <eLabel backgroundColor="blue" foregroundColor="white" name="" position="center,623" size="1146,1" zPosition="-10" />
       <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="86,628" size="26,26" />

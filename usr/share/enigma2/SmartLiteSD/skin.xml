@@ -1652,7 +1652,7 @@
   <screen backgroundColor="transparent" flags="wfNoBorder" name="EventView" position="center,center" size="1280,720" title="Eventview">
     <panel name="Backg" />
     <panel name="Clock" />
-    <panel name="BN4" />
+    <panel name="BS4" />
     <!-- Widget -->
     <eLabel text="EventView" font="FHD; 28" backgroundColor="EL_Background" foregroundColor="white" position="206,40" size="666,38" transparent="1" />
     <widget name="epg_description" itemHeight="33" font="FHD; 21" backgroundColor="EL_Background" foregroundColor="white" position="206,166" size="866,466" transparent="1" />
@@ -1698,10 +1698,10 @@
     <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="353,656" size="26,26" />
     <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/yellow.png" position="566,656" size="26,26" />
     <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/blue.png" position="780,656" size="26,26" />
-    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="170,656" size="180,26" name="key_red" transparent="1" zPosition="1" foregroundColor="white" />
-    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="383,656" size="180,26" name="key_green" transparent="1" zPosition="1" foregroundColor="white" />
-    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="596,656" size="180,26" name="key_yellow" transparent="1" zPosition="1" foregroundColor="white" />
-    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="810,656" size="180,26" name="key_blue" transparent="1" zPosition="1" foregroundColor="white" />
+    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="170,656" size="180,26" source="key_red" render="Label" transparent="1" zPosition="1" foregroundColor="white" />
+    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="383,656" size="180,26" source="key_green" render="Label" transparent="1" zPosition="1" foregroundColor="white" />
+    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="596,656" size="180,26" source="key_yellow" render="Label" transparent="1" zPosition="1" foregroundColor="white" />
+    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="810,656" size="180,26" source="key_blue" render="Label" transparent="1" zPosition="1" foregroundColor="white" />
     <!-- Clock -->
     <eLabel backgroundColor="white" position="1064,42" size="1,33" transparent="0" zPosition="-1" />
     <widget backgroundColor="EL_Background" font="Bold; 33" halign="left" position="1069,31" render="Label" size="94,53" source="global.CurrentTime" transparent="1" valign="center">
@@ -3929,7 +3929,7 @@ self.instance.move(ePoint(int(deskwidth - newwidth)/2,int(deskheight - newheight
   <screen backgroundColor="transparent" flags="wfNoBorder" name="TimerEditList" position="center,center" size="1280,720" title="Timer Editor">
     <panel name="Backg" />
     <panel name="Clock" />
-    <panel name="BN4" />
+    <panel name="BS4" />
     <!-- Widget -->
     <widget source="Title" render="Label" font="FHD; 28" backgroundColor="EL_Background" foregroundColor="white" position="206,40" size="686,38" transparent="1" />
     <widget name="timerlist" itemHeight="60" font="FHD; 21" rowSplit="30" setEventNameFont="FHD; 21" setServiceNameFont="FHD;20" setFont="FHD;20" satPosLeft="270" scrollbarMode="showOnDemand" backgroundColor="EL_Background" foregroundColor="white" position="206,103" size="866,420" transparent="1" />
@@ -3941,6 +3941,7 @@ self.instance.move(ePoint(int(deskwidth - newwidth)/2,int(deskheight - newheight
   <screen backgroundColor="transparent" flags="wfNoBorder" name="TimerEntry" position="center,center" size="1280,720" title="Timer entry">
     <panel name="Backg" />
     <panel name="Clock" />
+    <panel name="BS4" />
     <!-- Widget -->
     <widget source="Title" render="Label" font="FHD; 28" backgroundColor="EL_Background" foregroundColor="white" position="206,40" size="686,38" transparent="1" />
     <widget name="config" itemHeight="33" font="FHD; 21" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="EL_Background" foregroundColor="white" position="206,103" size="866,533" transparent="1" />

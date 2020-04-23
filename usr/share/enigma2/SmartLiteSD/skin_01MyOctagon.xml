@@ -59,7 +59,7 @@
     <eLabel backgroundColor="blue" name="" position="center,100" size="3,440" zPosition="-9" foregroundColor="blue" />
     <widget name="sublist" itemHeight="55" font="FHD; 22" backgroundColor="EL_Background" foregroundColor="EL_Foreground" position="655,100" size="420,440" transparent="1" zPosition="3" />
     <eLabel backgroundColor="white" position="206,570" size="866,1" zPosition="-9" foregroundColor="white" />
-    <widget name="description" font="FHD; 20" backgroundColor="EL_Background" foregroundColor="EL_Foreground" halign="left" position="206,575" size="866,75" transparent="1" valign="top" />
+    <widget name="description" font="FHD; 20" backgroundColor="EL_Background" foregroundColor="EL_Foreground" halign="center" position="206,575" size="866,75" transparent="1" valign="center" />
   </screen>
 
   <screen name="QuickMenuDevices" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1280,720">
@@ -85,12 +85,25 @@
     <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/key_exit.png" position="1055,657" size="42,25" />
   </screen>
 
-  <screen backgroundColor="transparent" flags="wfNoBorder" name="ScNewSelection" position="center,center" size="1280,720" title="Softcam Setup">
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="SoftcamSetup" position="center,center" size="1280,720" title="Softcam setup">
+    <panel name="Backg" />
+    <panel name="Clock" />
+    <panel name="BS4" />
+    <!-- Widget -->
+    <eLabel text="Softcam Setup" font="FHD; 28" backgroundColor="EL_Background" foregroundColor="white" position="206,40" size="686,38" transparent="1" />
+    <widget name="server" font="FHD; 24" foregroundColor="EL_Foreground" backgroundColor="EL_Background" position="473,103" size="600,33" transparent="1" halign="right" />
+    <eLabel backgroundColor="blue" position="206,140" size="866,2" zPosition="-9" foregroundColor="white" />
+    <widget name="config" itemHeight="33" font="FHD; 21" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="EL_Background" foregroundColor="white" position="206,150" size="866,200" transparent="1" />
+    <eLabel backgroundColor="white" position="206,333" size="866,1" zPosition="-9" foregroundColor="white" />
+    <widget name="info" backgroundColor="EL_Background" font="FHD; 18" foregroundColor="white" halign="left" position="206,340" size="446,306" transparent="1" />
+  </screen>
+
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="ScNewSelection" position="center,center" size="1280,720" title="Cam Setup">
     <panel name="Backg" />
     <panel name="Clock" />
     <panel name="BN4" />
     <!-- Widget -->
-    <eLabel text="Softcam Configuration" font="FHD; 28" backgroundColor="EL_Background" foregroundColor="white" position="206,40" size="686,38" transparent="1" />
+    <eLabel text="Cam Setup" font="FHD; 28" backgroundColor="EL_Background" foregroundColor="white" position="206,40" size="686,38" transparent="1" />
     <widget name="cam" font="FHD; 24" backgroundColor="EL_Background" foregroundColor="EL_Foreground" halign="left" position="206,103" size="600,33" transparent="1" />
     <widget name="server" font="FHD; 24" foregroundColor="EL_Foreground" backgroundColor="EL_Background" position="473,103" size="600,33" transparent="1" halign="right" />
     <eLabel backgroundColor="blue" position="206,140" size="866,2" zPosition="-9" foregroundColor="white" />

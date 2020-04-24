@@ -952,6 +952,69 @@
 
 
 
+  <!-- OOOOOOOOOO  -->
+  <!-- OOOOOOOOOO  -->
+  <!-- OOOOOOOOOO  -->
+  <!-- OOOOOOOOOO  -->
+
+
+
+  <!-- OscamInfo Menu  -->
+  <!-- OscamInfo Menu  -->
+  <!-- OscamInfo Menu  -->
+  <!-- OscamInfo Menu  -->
+  <screen backgroundColor="transparent" flags="wfNoBorder" name="OscamInfoMenu" position="0,0" size="1280,720" title="OscamInfo Menu" transparent="0">
+    <ePixmap alphatest="blend" pixmap="SmartLiteSD/menu/softcam.png" position="183,83" size="233,233" />
+    <!-- Backg -->
+    <eLabel backgroundColor="EL_Background" position="500,center" size="666,586" zPosition="-21" />
+    <eLabel backgroundColor="EL_New" position="133,66" size="333,366" zPosition="-50" foregroundColor="white" />
+    <eLabel backgroundColor="EL_New" position="133,452" size="333,66" zPosition="-50" foregroundColor="white" />
+    <!-- Widget -->
+    <eLabel source="Title" render="Label" font="FHD; 30" backgroundColor="EL_Background" foregroundColor="white" position="140,310" size="320,116" transparent="1" halign="center" valign="center" />
+    <!--eLabel source="Title" render="Label" font="FHD; 30" backgroundColor="EL_Background" foregroundColor="white" position="140,310" size="320,116" transparent="1" valign="center" zPosition="3" halign="center" /-->
+    <widget name="mainmenu" font="EL_Standard; 26" itemHeight="32" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="EL_Background" foregroundColor="white" position="513,80" size="640,522" transparent="1" />
+    <!-- Weather -->
+    <eLabel backgroundColor="EL_New" position="133,540" size="333,80" zPosition="-50" foregroundColor="white" />
+    <widget backgroundColor="background" font="FHD; 38" render="Label" position="362,553" size="94,55" source="session.MSNWeather" transparent="1" zPosition="8" halign="left" foregroundColor="white">
+      <convert type="MSNWeather">temperature_current</convert>
+    </widget>
+    <widget backgroundColor="background" font="FHD; 18" render="Label" position="225,586" size="126,30" source="session.MSNWeather" zPosition="8" halign="right" transparent="1" foregroundColor="EL_Blue">
+      <convert type="MSNWeather">temperature_heigh_low,current</convert>
+    </widget>
+    <widget backgroundColor="background" font="FHD; 22" render="Label" position="145,545" size="206,33" source="session.MSNWeather" zPosition="3" halign="right" transparent="1" foregroundColor="white">
+      <convert type="MSNWeather">city</convert>
+    </widget>
+    <eLabel backgroundColor="blue" position="139,582" size="212,1" zPosition="-9" foregroundColor="white" />
+    <!-- Clock -->
+    <eLabel backgroundColor="white" position="358,469" size="1,33" transparent="0" zPosition="-1" />
+    <widget backgroundColor="EL_Background" font="Bold; 33" halign="left" position="362,458" render="Label" size="94,53" source="global.CurrentTime" transparent="1" valign="center">
+      <convert type="ClockToText">Format:%H:%M</convert>
+    </widget>
+    <widget backgroundColor="EL_Background" font="Bold; 15" foregroundColor="EL_Blue" halign="right" position="256,484" render="Label" size="96,20" source="global.CurrentTime" transparent="1">
+      <convert type="ClockToText">Format:%e. %b</convert>
+    </widget>
+    <widget backgroundColor="EL_Background" font="Bold; 15" foregroundColor="EL_Blue" halign="right" position="256,466" render="Label" size="96,20" source="global.CurrentTime" transparent="1">
+      <convert type="ClockToText">Format:%A</convert>
+    </widget>
+  </screen>
+
+  <screen name="OscamInfoConfigScreen" title="OscamInfo Menu" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1280,720">
+    <!-- Background -->
+    <eLabel backgroundColor="EL_Background" name="" position="center,center" size="750,412" zPosition="-11" />
+    <eLabel backgroundColor="Red" position="center,200" size="750,3" zPosition="-9" foregroundColor="white" />
+     <!-- Widget -->
+    <widget source="Title" render="Label" position="center,155" size="740,40" font="FHD; 30" backgroundColor="EL_Background" foregroundColor="white" transparent="1" halign="left" valign="center" />
+    <widget name="config" itemHeight="30" font="FHD; 20" scrollbarMode="showOnDemand" backgroundColor="EL_Background" foregroundColor="EL_Foreground" position="center,210" size="730,350" transparent="1" zPosition="3" />
+    <widget name="status" font="Regular2; 28" backgroundColor="EL_Background" foregroundColor="EL_Foreground" halign="left" position="center,665" size="750,140" transparent="1" valign="center" />
+    <!-- Buttons -->
+    <eLabel backgroundColor="blue" foregroundColor="EL_Background" name="" position="center,520" size="750,1" zPosition="-10" />
+    <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/red.png" position="275,530" size="26,26" />
+    <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="435,530" size="26,26" />
+    <widget source="key_red" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" halign="left" position="305,530" size="250,26" transparent="1" zPosition="1" />
+    <widget source="key_green" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" halign="left" position="465,530" size="250,26" transparent="1" zPosition="1" />
+  </screen>
+
+
   <!-- PPPPPPPPPP  -->
   <!-- PPPPPPPPPP  -->
   <!-- PPPPPPPPPP  -->

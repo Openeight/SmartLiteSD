@@ -2154,10 +2154,10 @@
     <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/green.png" position="530,38" size="26,26" />
     <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/yellow.png" position="696,38" size="26,26" />
     <ePixmap alphatest="blend" pixmap="SmartLiteSD/buttons/blue.png" position="863,38" size="26,26" />
-    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="393,38" size="133,26" name="key_red" transparent="1" zPosition="1" foregroundColor="white" />
-    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="560,38" size="133,26" name="key_green" transparent="1" zPosition="1" foregroundColor="white" />
-    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="726,38" size="133,26" name="key_yellow" transparent="1" zPosition="1" foregroundColor="white" />
-    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="893,38" size="140,26" name="key_blue" transparent="1" zPosition="1" foregroundColor="white" />
+    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="393,38" size="133,26" source="key_red" render="Label" transparent="1" zPosition="1" foregroundColor="white" />
+    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="560,38" size="133,26" source="key_green" render="Label" transparent="1" zPosition="1" foregroundColor="white" />
+    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="726,38" size="133,26" source="key_yellow" render="Label" transparent="1" zPosition="1" foregroundColor="white" />
+    <widget backgroundColor="EL_Background" font="Regular2; 18" halign="left" position="893,38" size="140,26" source="key_blue" render="Label" transparent="1" zPosition="1" foregroundColor="white" />
     <!-- Weather -->
     <eLabel backgroundColor="EL_New" position="200,540" size="333,80" zPosition="-50" foregroundColor="white" />
     <widget backgroundColor="background" font="FHD; 38" render="Label" position="429,553" size="94,55" source="session.MSNWeather" transparent="1" zPosition="8" halign="left" foregroundColor="white">
@@ -4507,6 +4507,31 @@ self.instance.move(ePoint(int(deskwidth - newwidth)/2,int(deskheight - newheight
     <widget source="key_green" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" halign="left" position="513,463" size="160,26" transparent="1" zPosition="1" />
     <widget source="key_yellow" render="Label" font="Regular2; 18" backgroundColor="EL_Background" foregroundColor="white" halign="left" position="706,463" size="160,26" transparent="1" zPosition="1" />
   </screen>
+
+  <!-- SelectImage -->
+  <screen name="SelectImage" title="" position="fill" flags="wfNoBorder">
+    <panel name="ChoiceBox"/>
+    <panel name="BS4" />
+  </screen>
+	
+  <!-- imageBackup -->
+  <screen name="ImageBackup" title=" == OpenEight Image Backup Tool == " position="center,center" size="750,900" flags="wfNoBorder" backgroundColor="transparent" foregroundColor="EL_Foreground">
+    <ePixmap alphatest="blend" pixmap="SmartLiteFHD/menu/oc_mini2.png" position="20,10" size="47,45" />
+    <ePixmap alphatest="blend" pixmap="SmartLiteFHD/menu/oc_mini2.png" position="680,10" size="47,45" />
+    <eLabel name="b" position="0,0" size="750,700" backgroundColor="EL_Background" zPosition="-2" />
+    <eLabel name="a" position="1,1" size="748,698" backgroundColor="#00000000" zPosition="-1" />
+    <widget source="Title" render="Label" position="150,10" foregroundColor="#00ffffff" size="480,50" halign="left" font="Regular; 28" backgroundColor="#00000000" />
+    <eLabel name="line" position="1,60" size="748,1" backgroundColor="Red" zPosition="1" />
+    <eLabel name="line2" position="1,250" size="748,4" backgroundColor="Red" zPosition="1" />
+    <widget name="config" position="2,280" size="730,380" halign="center" font="Regular; 22" backgroundColor="#00000000" foregroundColor="#00e5b243" />
+    <widget source="description" render="Label" position="2,80" size="730,50" halign="center" font="Regular; 22" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+    <widget source="options" render="Label" position="2,130" size="730,60" halign="center" font="Regular; 22" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+    <widget source="key_red" render="Label" position="30,200" size="150,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+    <widget source="key_green" render="Label" position="200,200" size="150,30" noWrap="1" zPosition="1" valign="center" font="Regular; 20" halign="left" backgroundColor="#00000000" foregroundColor="#00ffffff" />
+    <eLabel position="20,200" size="6,40" backgroundColor="#00e61700" /> <!-- Should be a pixmap -->
+    <eLabel position="190,200" size="6,40" backgroundColor="#0061e500" /> <!-- Should be a pixmap -->
+  </screen>
+
   <!-- PLUGIN SCREENS -->
   <!-- PLUGIN SCREENS -->
   <!-- PLUGIN SCREENS -->

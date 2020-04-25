@@ -688,12 +688,12 @@
     </widget>
   </screen>
 
-  <screen name="Config" title="Wake-On-LAN Configuration" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1280,720">
+  <screen name="Config" title="Config" backgroundColor="transparent" flags="wfNoBorder" position="center,center" size="1280,720">
     <panel name="Backg" />
     <panel name="Clock" />
     <panel name="BN4" />
     <!-- Widget -->
-    <eLabel text="Wake-On-LAN Configuration" font="FHD; 28" backgroundColor="EL_Background" foregroundColor="white" position="206,40" size="686,38" transparent="1" />
+    <eLabel text="Auto-Backup" font="FHD; 28" backgroundColor="EL_Background" foregroundColor="white" position="206,40" size="686,38" transparent="1" />
     <widget name="config" itemHeight="33" scrollbarMode="showOnDemand" enableWrapAround="1" font="FHD; 21" backgroundColor="EL_Background" foregroundColor="EL_Foreground" position="206,103" size="866,500" transparent="1" />
     <eLabel backgroundColor="white" position="206,610" size="866,1" zPosition="-9" foregroundColor="dark" />
     <widget name="status" font="FHD; 20" backgroundColor="EL_Background" foregroundColor="EL_Foreground" halign="left" position="206,613" size="866,30" transparent="1" />

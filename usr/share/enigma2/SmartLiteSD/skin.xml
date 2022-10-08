@@ -153,7 +153,6 @@
   <include filename="/usr/share/enigma2/SmartLiteSD/skin_01MyOctagon.xml" />
   <include filename="/usr/share/enigma2/SmartLiteSD/skin_02Plugins.xml" />
   <include filename="/usr/share/enigma2/SmartLiteSD/skin_03Media.xml" />
-  <include filename="/usr/share/enigma2/SmartLiteSD/skin_04Others.xml" />
   <include filename="/usr/share/enigma2/SmartLiteSD/skin_templates.xml" />
   <parameters>
     <parameter name="ConfigListSeperator" value="253" />
